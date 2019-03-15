@@ -17,18 +17,18 @@ function divide(a, b){
   return number;
 }
 function inc(a){
-  number = a++;
+  number = a + 1;
   return number;
 }
 function dec(a){
-  number = a--;
+  number = a - 1;
   return number;
 }
 function makeInt(a){
   number = parseInt(a, 10);
   return number;
 }
-function preserveDecimal(a){ 
+function preserveDecimal(a){
   number = parseFloat(a, 10);
   return number;
 }
